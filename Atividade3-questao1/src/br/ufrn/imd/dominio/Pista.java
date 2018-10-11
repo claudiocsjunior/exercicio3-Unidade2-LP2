@@ -3,7 +3,10 @@ package br.ufrn.imd.dominio;
 import br.ufrn.imd.excecao.*;
 
 public class Pista {
-	
+	/**
+	 * Método de inciação da pista
+	 * @throws PistaException
+	 */
 	public void iniciar() throws PistaException{
 		Automovel automovel = new Automovel();
 		try{

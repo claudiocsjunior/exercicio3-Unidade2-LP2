@@ -15,12 +15,16 @@ public class Automovel {
 	
 	private int velocidadeAtual;
 	/**
-	 * 
+	 * Construtor da classe
 	 */
 	public Automovel() {
 		this.velocidadeAtual = 0;
 	}
-	
+	/**
+	 * Método de aceleração do automóvel
+	 * @param velocidadeAdicionada
+	 * @throws AcimaVelocidadeException
+	 */
 	public void acelerar(int velocidadeAdicionada) throws AcimaVelocidadeException{
 		if((this.velocidadeAtual + velocidadeAdicionada) > VELOCIDADE_MAXIMA){
 			throw new AcimaVelocidadeException();

@@ -5,7 +5,10 @@ import br.ufrn.imd.excecao.PistaException;
 
 
 public class Aplicacao {
-
+	/**
+	 * Executável inicial da aplicação
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Pista pista = new Pista();
 		try{
